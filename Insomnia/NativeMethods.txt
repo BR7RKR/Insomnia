@@ -1,0 +1,13 @@
+CreateWindowEx
+DefWindowProc
+DestroyWindow
+DispatchMessage
+GetMessage
+GetModuleHandle
+PostMessage
+PostQuitMessage
+RegisterClass
+SetThreadExecutionState
+ShutdownBlockReasonCreate
+ShutdownBlockReasonDestroy
+TranslateMessage
