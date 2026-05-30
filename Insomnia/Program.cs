@@ -8,6 +8,7 @@ var services = new ServiceCollection();
 services.AddSingleton(TimeProvider.System);
 services.AddSingleton<IShutdownTrackerService, ShutdownTrackerService>();
 services.AddSingleton<ISleepTrackerService, SleepTrackerService>();
+services.AddSingleton<ISteamTrackerService, SteamTrackerService>();
 
 
 var registrar = new TypeRegistrar(services);
